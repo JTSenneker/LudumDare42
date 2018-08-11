@@ -1,0 +1,3 @@
+D:\Repos\LudumDare42\RisingWaters\Source\RisingWaters\RisingWaters.Build.cs
+D:\Repos\LudumDare42\RisingWaters\Source\RisingWaters.Target.cs
+D:\Repos\LudumDare42\RisingWaters\Source\RisingWatersEditor.Target.cs
