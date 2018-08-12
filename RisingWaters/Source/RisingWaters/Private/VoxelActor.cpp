@@ -178,6 +178,12 @@ void AVoxelActor::UpdateMesh() {
 
 	proceduralComponent->ClearAllMeshSections();
 	proceduralComponent->CreateMeshSection(0, Vertices, Triangles, Normals, UVs, VertexColors, Tangents, true);
+
+	int s = 0;
+	while (s < Materials.Num()) {
+		proceduralComponent->SetMaterial(s, Materials[s]);
+		s++;
+	}
 }
 
 TArray<int32> AVoxelActor::calculateNoise_Implementation() {
