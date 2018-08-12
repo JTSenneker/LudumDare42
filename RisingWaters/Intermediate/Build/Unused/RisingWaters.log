@@ -1,0 +1,30 @@
+﻿  Cleaning RisingWatersEditor Binaries...
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for RisingWatersEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Using Visual Studio 2017 14.14.26428 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for RisingWatersEditor
+    Running UnrealHeaderTool "D:\Repos\LudumDare42\RisingWaters\RisingWaters.uproject" "D:\Repos\LudumDare42\RisingWaters\Intermediate\Build\Win64\RisingWatersEditor\Development\RisingWatersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for RisingWatersEditor in 10.3603913 seconds
+  Deleting old hot reload file: "D:\Repos\LudumDare42\RisingWaters\Binaries\Win64\UE4Editor-RisingWaters-4183.dll".
+  Deleting old hot reload file: "D:\Repos\LudumDare42\RisingWaters\Binaries\Win64\UE4Editor-RisingWaters-4183.pdb".
+  Deleting old hot reload file: "D:\Repos\LudumDare42\RisingWaters\Binaries\Win64\UE4Editor-RisingWaters-9638.dll".
+  Deleting old hot reload file: "D:\Repos\LudumDare42\RisingWaters\Binaries\Win64\UE4Editor-RisingWaters-9638.pdb".
+  Building 12 actions with 4 processes...
+    PCLaunch.rc
+    SharedPCH.Engine.cpp
+    MyActor.cpp
+    SimplexNoiseLibrary.cpp
+    MyActor.gen.cpp
+    RisingWaters.init.gen.cpp
+    VoxelActor.cpp
+    SimplexNoiseLibrary.gen.cpp
+    RisingWaters.cpp
+    VoxelActor.gen.cpp
+    UE4Editor-RisingWaters.lib
+       Creating library D:\Repos\LudumDare42\RisingWaters\Intermediate\Build\Win64\UE4Editor\Development\RisingWaters\UE4Editor-RisingWaters.lib and object D:\Repos\LudumDare42\RisingWaters\Intermediate\Build\Win64\UE4Editor\Development\RisingWaters\UE4Editor-RisingWaters.exp
+    UE4Editor-RisingWaters.dll
+       Creating library D:\Repos\LudumDare42\RisingWaters\Intermediate\Build\Win64\UE4Editor\Development\RisingWaters\UE4Editor-RisingWaters.suppressed.lib and object D:\Repos\LudumDare42\RisingWaters\Intermediate\Build\Win64\UE4Editor\Development\RisingWaters\UE4Editor-RisingWaters.suppressed.exp
+  Deploying RisingWatersEditor Win64 Development...
+  Total build time: 53.65 seconds (Parallel executor: 38.34 seconds)

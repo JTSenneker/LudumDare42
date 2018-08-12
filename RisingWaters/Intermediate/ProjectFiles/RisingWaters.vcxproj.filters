@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\RisingWaters.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{41DDFE1E-C5E6-400F-8CB4-BD701C925E04}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\RisingWaters.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\RisingWatersEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{560087E9-1F1A-414E-BD32-489431C22A81}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\RisingWaters">
+			<UniqueIdentifier>{A6CAD314-E5CF-43F7-A8C8-919ED15B548D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\RisingWaters\RisingWaters.Build.cs">
+			<Filter>Source\RisingWaters</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\RisingWaters\RisingWaters.cpp">
+			<Filter>Source\RisingWaters</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RisingWaters\RisingWaters.h">
+			<Filter>Source\RisingWaters</Filter>
+		</ClInclude >
+		<Filter Include="Source\RisingWaters\Private">
+			<UniqueIdentifier>{91BD9F1D-9DB9-435B-A7A8-E125A7EF2B6A}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\RisingWaters\Private\MyActor.cpp">
+			<Filter>Source\RisingWaters\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\RisingWaters\Private\SimplexNoiseLibrary.cpp">
+			<Filter>Source\RisingWaters\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\RisingWaters\Private\VoxelActor.cpp">
+			<Filter>Source\RisingWaters\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\RisingWaters\Public">
+			<UniqueIdentifier>{F68331CD-0DB0-4F6A-9812-9B9D065542F8}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\RisingWaters\Public\MyActor.h">
+			<Filter>Source\RisingWaters\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\RisingWaters\Public\SimplexNoiseLibrary.h">
+			<Filter>Source\RisingWaters\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\RisingWaters\Public\VoxelActor.h">
+			<Filter>Source\RisingWaters\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
